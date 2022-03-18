@@ -6,18 +6,18 @@ Junior Frontend Developer
 
 ### Contact Information
 
-**Phone:** +375-44-546-32-43 </br>
-**E-mail:** des.rusetskaya@gmail.com </br>
-**Telegram:** [@interior_project](https://t.me/interior_project) </br>
-**GitHub:** [VictoriaRus](https://github.com/VictoriaRus/my-Laravel) </br>
-**Discord:** Виктория (@victoriarus) </br>
-**Address:** Minsk, Belarus
+* **Phone:** +375-44-546-32-43
+* **E-mail:** des.rusetskaya@gmail.com
+* **Telegram:** [@interior_project](https://t.me/interior_project)
+* **GitHub:** [VictoriaRus](https://github.com/VictoriaRus/my-Laravel)
+* **Discord:** Виктория (@victoriarus)
+* **Address:** Minsk, Belarus
 
 
 
 ### About Me
 
-My name is Victoria, I'm 32 years old. I'm a _*Web-designer developer*_.
+My name is Victoria, I'm 32 years old. I'm a Web-designer developer.
 I taught Web-development to high school students. I'm good at graphic programs.
 
 Now I'm working on my English and studying front-end development. 
@@ -44,8 +44,8 @@ multiply(2, 3);
 2021-2022: a teacher Web-development ([School of digital technology](https://cmit.ru/minsk/))
 
 ### Education
-* **Designer** (_Belarusian State University_) </br>
-* **Web Developer** (_Belarusian State University of Informatics and Radioelectronics_) </br>
+* **Designer** (_Belarusian State University_)
+* **Web Developer** (_Belarusian State University of Informatics and Radioelectronics_)
 
 ### Languages
 **English:** B1
