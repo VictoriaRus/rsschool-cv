@@ -20,7 +20,7 @@ Junior Frontend Developer
 My name is Victoria, I'm 32 years old. I'm a _*Web-designer developer*_.
 I taught Web-development to high school students. I'm good at graphic programs.
 
-Now I'm improving my English and Front-end skills. 
+Now I'm working on my English and studying front-end development. 
 
 ### Skills and Proficiency:
 
@@ -39,3 +39,14 @@ function multiply(a, b){
 }
 multiply(2, 3);
 ```
+
+### Work Experience
+2021-2022: a teacher Web-development ([School of digital technology](https://cmit.ru/minsk/))
+
+### Education
+* **Designer** (_Belarusian State University_) </br>
+* **Web Developer** (_Belarusian State University of Informatics and Radioelectronics_) </br>
+
+### Languages
+**English:** B1
+
