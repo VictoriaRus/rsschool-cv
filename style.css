@@ -1,40 +1,65 @@
-.container{
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
     display: flex;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.hr{
+
+.head{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*nav*/
+.navbar{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #373536;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #9c908d;
+    cursor: pointer
+}
+
+.hr {
     background-color: #ffffff;
     height: 1px;
     width: 90%;
     margin: 0 15px;
 }
-@media (max-width: 1200px) {
-    .container{
-        max-width: 970px;
-    }
+
+.hr-black {
+    background-color: #48484a;
+    height: 1px;
+    width: 90%;
+    margin: 0 15px;
 }
 
-@media (max-width: 992px) {
-    .container{
-        max-width: 750px;
-    }
-}
 
-@media (max-width: 767px) {
-    .container{
-        display: block;
-        max-width: none;
-    }
-    #logo {
-        font-size: 60pt;
-        margin: 15px 0;
-    }
-}
-
-.text{
+.text-white {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     line-height: 1.5;
@@ -43,29 +68,62 @@
     color: #d3d0d2;
 }
 
+.text-main {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    font-size: 12pt;
+    padding: 0 25px;
+    color: #373535;
+}
+
+.text-black {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 12pt;
+    padding: 0 25px;
+    color: #9c908d;
+}
+
+.h4 {
+    font-size: 12pt;
+    padding: 12px 25px;
+    color: #373535;
+}
+
 /*header*/
-#logo{
+#logo {
     font-size: 60pt;
     margin: 15px 35px;
 }
 
 /* main */
 
-.col-1{
-    min-width: 35%;
+.col-1 {
+    min-width: 40%;
     max-width: 100%;
     background-color: rgb(73, 73, 74);
     color: #fbfbfc;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
-.col-2{
+
+.col-2 {
     min-width: 65%;
     max-width: 100%;
 }
 
-img{
+img {
     width: 100%;
 }
+
+.my-ul {
+    margin: 1px;
+}
+
+.my-p {
+    margin-bottom: 0;
+}
+
 /*skill*/
 .skill {
     width: 100%;
@@ -73,6 +131,7 @@ img{
     height: 10px;
     background-color: #9c908d;
 }
+
 .skills {
     text-align: right;
     padding-right: 20px;
@@ -80,11 +139,13 @@ img{
     border-radius: 5px;
     color: #9c908d;
 }
+
 .rus {
     width: 85%;
     height: 10px;
     background-color: #fbfbfc;
 }
+
 .eng {
     width: 50%;
     height: 10px;
@@ -92,7 +153,7 @@ img{
 }
 
 /*contact*/
-.contact{
+.contact {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -102,7 +163,152 @@ img{
     color: #d3d0d2;
 
 }
-.info{
+
+.info {
     margin-left: 15px;
+}
+
+/*education*/
+.education {
+    display: flex;
+}
+
+.educ {
+    width: 100%;
+    min-width: 40%;
+    border: 3px solid #373536;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    padding: 3%;
+}
+
+/*expertise*/
+.expertise {
+    display: flex;
+}
+
+.expert {
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    padding: 1%;
+}
+
+.name {
+    width: 80px;
+}
+
+.html {
+    width: 85%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.css {
+    width: 70%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.js {
+    width: 60%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.react {
+    width: 35%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.github {
+    width: 60%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.design {
+    width: 87%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.figma {
+    width: 70%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.mysql {
+    width: 35%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.php {
+    width: 50%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.python {
+    width: 40%;
+    height: 10px;
+    background-color: #373536;
+}
+
+.sm {
+    width: 80px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#rs_school{
+    width: 100px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        display: block;
+        max-width: none;
+    }
+
+    #logo {
+        font-size: 60pt;
+        margin: 15px 0;
+    }
+
+    .education {
+        display: block;
+    }
+
+    .expertise {
+        display: block;
+    }
+
+    .nav-link {
+        padding: 0 10px;
+    }
 }
 

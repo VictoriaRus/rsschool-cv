@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>VR</title>
 </head>
 <body>
+<div class="head">
+    <div class=" navbar">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-1"></div>
+    <div class="col-2"></div>
+</div>
 
 <header>
     <div class="container">
@@ -25,7 +43,7 @@
     <div class="container">
         <div class="col-1">
             <img src="img/logo.jpg" alt="My-photo">
-            <div class="text">My name is Victoria, I’m 32 years old.
+            <div class="text-white" id="summary">My name is Victoria, I’m 32 years old.
                 I’m a Web-designer developer.
                 I taught Web-development to high school students.
                 I’m good at graphic programs.
@@ -39,7 +57,7 @@
                         </div>
 
                     </li>
-                    <li>English: 55%
+                    <li id="english">English: 55%
                         <div class="skill">
                             <div class="skills eng"></div>
                         </div>
@@ -49,15 +67,15 @@
             <div class="contact">
                 <p><i class="fa fa-phone-square fa-3x"></i></p>
                 <p class="info">
-                    <span><b>Phone</b></span> </br>
+                    <span><b>Phone</b></span> <br>
                     <span>8044 546 32 43</span>
                 </p>
             </div>
             <div class="hr"></div>
-            <div class="contact">
+            <div class="contact" id="contacts">
                 <p><i class="fa fa-address-book fa-3x"></i></p>
                 <p class="info">
-                    <span><b>E-mail</b></span> </br>
+                    <span><b>E-mail</b></span> <br>
                     <span>des.rusetskaya@gmail.com</span>
                 </p>
             </div>
@@ -65,23 +83,174 @@
             <div class="contact">
                 <p><i class="fa fa-map-marker fa-3x"></i></p>
                 <p class="info">
-                    <span><b>Address</b></span> </br>
+                    <span><b>Address</b></span> <br>
                     <span>220039 Minsk, Belarus</span>
                 </p>
             </div>
         </div>
 
-
         <div class="col-2">
-            500
+            <h4 class="h4">MY WORK EXPERIENCE</h4>
+            <div class="text-main">
+                <p class="my-p"><b>Junior Frontend Developer <br>freelance | Minsk | 2022</b></p>
+            </div>
+            <div class="text-black">
+                <ul class="my-ul">
+                    <li>frontend</li>
+                    <li>site design Figma</li>
+                </ul>
+            </div>
+
+            <div class="hr-black sm"></div>
+
+            <div class="text-main">
+                <p class="my-p"><b>Teacher Web-development <br> School of digital technology | Minsk | 2021-2022</b>
+                </p>
+            </div>
+            <div class="text-black">
+                <ul class="my-ul">
+                    <li>client server development: Python</li>
+                    <li>site layout, Figma</li>
+                </ul>
+            </div>
+
+            <div class="hr-black sm"></div>
+
+            <div class="text-main">
+                <p class="my-p"><b>Designer <br> Business Furniture | Minsk | 2016-2020</b></p>
+            </div>
+            <div class="text-black">
+                <ul class="my-ul">
+                    <li>graphic design</li>
+                    <li>3D visualization of the interior</li>
+                </ul>
+                <br>
+
+            </div>
+            <div class="hr-black"></div>
+
+            <h4 class="h4">EDUCATION HISTORY</h4>
+            <div class="text-main">
+                <div class="education">
+                    <div class="educ">
+                        <h4>Designer</h4>
+                        <p>Belarusian State University</p>
+                    </div>
+                    <div class="educ" id="education">
+                        <h4>Web Developer</h4>
+                        <p>Belarusian State University of Informatics and Radioelectronics</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr-black"></div>
+
+            <h4 class="h4" id="skills">SKILLS & EXPERTISE</h4>
+            <div class="text-main">
+
+                <div class="expertise">
+                    <div>
+                        <div class="name">HTML</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills html"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="name">Design</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills design"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise">
+                    <div>
+                        <div class="name">CSS</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills css"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="name">Figma</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills figma"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise">
+                    <div>
+                        <div class="name">JS</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills js"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="name">mySQL</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills mysql"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise">
+                    <div>
+                        <div class="name">React</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills react"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="name">PHP</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills php"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise">
+                    <div>
+                        <div class="name">GitHub</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills github"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="name">Python</div>
+                    </div>
+                    <div class="expert">
+                        <div class="skill">
+                            <div class="skills python"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
+
     </div>
 </main>
 
 <footer>
-    <div class="container">
-
-    </div>
+        <div><a href="https://github.com/VictoriaRus" class="nav-link"> © 2022 VictoriaRus</a></div>
+        <div><a href="https://rs.school/js/"><img id="rs_school" src="img/rs_school.svg"></a></div>
 </footer>
 
 </body>
